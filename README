@@ -1,0 +1,43 @@
+name:             GiantSteps (key)
+
+contact:          Peter Knees <peter.knees@jku.at>
+                  Ángel Faraldo <angel.faraldo@upf.edu>
+                  Richard Vogl <richard.vogl@jku.at>
+
+description:      collection of annotations for 604 2min audio previews from
+                  www.beatport.com
+
+reference:        Peter Knees, Ángel Faraldo, Perfecto Herrera, Richard Vogl,
+                  Sebastian Böck, Florian Hörschläger, Mickael Le Goff: "Two data
+                  sets for tempo estimation and key detection in electronic dance
+                  music annotated from user corrections," Proc. of the 16th
+                  Conference of the International Society for Music Information
+                  Retrieval (ISMIR'15), Oct. 2015, Malaga, Spain.
+
+annotations:      key
+
+content:
+=========================================================================
+audio/                   original audio files in mp3 format
+md5/                     md5 hashes of original audio files
+annotations/key/         key annotations
+annotations/giantsteps/  annotations in the GiantSteps project format
+
+notes:
+=========================================================================
+The audio files (604 files, size ~850Mb) can be downloaded from http://www.beatport.com/
+using the bash script:
+
+./audio_dl.sh
+
+To download the files manually use links of the following form:
+http://geo-samples.beatport.com/lofi/<name of mp3 file>
+e.g.:
+http://geo-samples.beatport.com/lofi/5377710.LOFI.mp3
+
+To convert the audio files to .wav use (bash + sox):
+
+./convert_audio.sh
+
+
+
