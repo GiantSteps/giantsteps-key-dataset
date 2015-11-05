@@ -20,6 +20,7 @@ content:
 =========================================================================
 audio/                   original audio files in mp3 format
 md5/                     md5 hashes of original audio files
+annotations/genre/       genre annotations
 annotations/key/         key annotations
 annotations/giantsteps/  annotations in the GiantSteps project format
 annotations/jams/	 annotations in the JAMS (https://github.com/marl/jams) format
@@ -39,6 +40,10 @@ http://geo-samples.beatport.com/lofi/5377710.LOFI.mp3
 To convert the audio files to .wav use (bash + sox):
 
 ./convert_audio.sh
+
+To retrieve the genre information, the JSON contained within the website was parsed.
+The key annotation was extracted from forum entries of people correcting the key annotations (i.e. manual annotation of tempo).
+For more information please contact creators.
 
 
 
