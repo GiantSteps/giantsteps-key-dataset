@@ -4,7 +4,7 @@ contact:          Peter Knees <peter.knees@jku.at>
                   Ángel Faraldo <angel.faraldo@upf.edu>
                   Richard Vogl <richard.vogl@jku.at>
 
-description:      collection of annotations for 604 2min audio previews from
+description:      collection of annotations for 604 2min(1) audio previews from
                   www.beatport.com
 
 reference:        Peter Knees, Ángel Faraldo, Perfecto Herrera, Richard Vogl,
@@ -46,4 +46,10 @@ The key annotation was extracted from forum entries of people correcting the key
 For more information please contact creators.
 
 
+(1): Most of the audio files are 120 seconds long. Exceptions are:
+name              length
+1224698.LOFI.mp3  45
+1442809.LOFI.mp3  62
+3424038.LOFI.mp3  77
+4452003.LOFI.mp3  59
 
