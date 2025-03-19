@@ -2,8 +2,8 @@
 #title           :audio_dl.sh
 #description     :This script will download all audio files for the dataset from beatport.
 #author		 :richard vogl (richard.vogl@jku.at)
-#date            :2015 09 16  (2015 07 17)
-#version         :0.2    
+#date            :2025-03-19  (2015-09-16, 2015-07-17)
+#version         :0.3    
 #usage		 :bash audio_dl.sh
 #notes           :uses curl and md5 / md5sum
 #bash_version    :3.2.57(1)-release
@@ -27,8 +27,8 @@ DEBUG=0
 
 FILES=./md5/*
 
-BASEURL=http://geo-samples.beatport.com/lofi/
-BACKUPBASEURL=http://www.cp.jku.at/datasets/giantsteps/backup/
+BASEURL=https://www.cp.jku.at/datasets/giantsteps/backup/
+BACKUPBASEURL=https://geo-samples.beatport.com/lofi/
 AUDIOPATH=./audio/
 
 RED='\033[0;31m'
